@@ -123,7 +123,9 @@ Write an F# function interleave(xs,ys) that interleaves two lists:
 	    val it : int list = [1; 4; 2; 5; 3; 6]
 Assume that the two lists have the same length.
 
-
+let interleave a b =
+    List.zip a b |> List.collect (fun (a,b) -> [a;b])
+interleave [1;2;2] [4;4;7];;
 
 __________________________________________________________________________________________________________
 Write an F# function cut xs that cuts a list into two equal parts:
