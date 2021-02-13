@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GMwlpsVEc3O16wz8U+TSfElv8aUcaLN62yDJQQh6IyubXsfR1HBqLIWlV3D8Oo1/ionj/RxZ3uGhzM0GHtRwqg==",
+  "success": true,
+  "projectFilePath": "F:\\Visual Studios\\CodingProblems\\CodingProblems.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\fsharp.core\\5.0.0\\fsharp.core.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
