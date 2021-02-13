@@ -57,4 +57,7 @@ module Tuples =
 
 let rec revlist xs = List.map List.rev xs
 
-revlist [[1;2;3];[1;5]]
+revlist [[9;0;2];[3;2];[6;2]]
+let interleave a b =
+    List.zip a b |> List.collect (fun (a,b) -> [a;b])
+interleave [1;2;2] [4;4;7];;
